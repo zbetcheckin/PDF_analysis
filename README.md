@@ -49,40 +49,34 @@ https://web.archive.org/web/20141010035745/http://gnupdf.org/Introduction_to_PDF
 
 Tool | URL
 ------------------------------------ | ---------------------------------------------
-poppler-utils | https://packages.debian.org/en/jessie/poppler-utils (pdftotext, pdfimages, pdftohtml, pdftops, pdfinfo, pdffonts, pdfdetach, pdfseparate, pdfsig, pdftocairo, pdftoppm, pdfunite)
-forensics-all | https://packages.debian.org/jessie-backports/forensics-all
+AnalyzePDF.py | https://github.com/hiddenillusion/AnalyzePDF
+ByteForce | https://github.com/weaknetlabs/ByteForce
+Caradoc | https://github.com/ANSSI-FR/caradoc
 Didier Stevens suite | https://github.com/DidierStevens/DidierStevensSuite
-Origami | https://code.google.com/archive/p/origami-pdf/
-peepdf | https://github.com/jesparza/peepdf
-pdf-parser | http://didierstevens.com/files/software/pdf-parser_V0_6_4.zip
-pdfextract | https://github.com/CrossRef/pdfextract
 dumppdf | https://packages.debian.org/jessie/python-pdfminer
-pdftk | https://packages.debian.org/en/jessie/pdftk
-qpdf | https://packages.debian.org/jessie/qpdf
-pyew | https://packages.debian.org/en/jessie/pyew
+forensics-all | https://packages.debian.org/jessie-backports/forensics-all
+Origami | https://code.google.com/archive/p/origami-pdf/
 ParanoiDF | https://github.com/patrickdw123/ParanoiDF
+peepdf | https://github.com/jesparza/peepdf
+PDF Xray | https://github.com/9b/pdfxray_public
+pdf-parser | http://didierstevens.com/files/software/pdf-parser_V0_6_4.zip
+pdf2jhon.py | https://github.com/magnumripper/JohnTheRipper/blob/unstable-jumbo/run/pdf2john.py
 pdfcrack | https://packages.debian.org/jessie/pdfcrack
+pdfextract | https://github.com/CrossRef/pdfextract
+pdfobjflow.py | https://bitbucket.org/sebastiendamaye/pdfobjflow
 pdfresurrect | https://packages.debian.org/jessie/pdfresurrect
 PdfStreamDumper.exe | http://sandsprite.com/CodeStuff/PDFStreamDumper_Setup.exe
-AnalyzePDF.py | https://github.com/hiddenillusion/AnalyzePDF
-PDF Xray | https://github.com/9b/pdfxray_public
+pdftk | https://packages.debian.org/en/jessie/pdftk
 pdfxray_lite.py | https://github.com/9b/pdfxray_lite
-ByteForce | https://github.com/weaknetlabs/ByteForce
-pdfobjflow.py | https://bitbucket.org/sebastiendamaye/pdfobjflow
+poppler-utils | https://packages.debian.org/en/jessie/poppler-utils (pdftotext, pdfimages, pdftohtml, pdftops, pdfinfo, pdffonts, pdfdetach, pdfseparate, pdfsig, pdftocairo, pdftoppm, pdfunite)
+pyew | https://packages.debian.org/en/jessie/pyew
+qpdf | https://packages.debian.org/jessie/qpdf
 swf_mastah.py | https://github.com/9b/pdfxray_public/blob/master/builder/swf_mastah.py
-pdf2jhon.py | https://github.com/magnumripper/JohnTheRipper/blob/unstable-jumbo/run/pdf2john.py
 
 
 #### Existing list
 http://blog.didierstevens.com/programs/pdf-tools/ <br />
 https://github.com/sans-dfir/sift-files/tree/master/pdf-tools
-
-
-
-
-
-
-
 
 
 
