@@ -186,19 +186,25 @@ Change an element
 $ exiftool -Title="New title" file.pdf
 ```
 
-3 ways to remove metadata
+Remove metadata
 ```
-$ mat file.pdf
-$ exiftool -all= file.pdf
-$ exiftool -all:all= file.pdf
+$ exiftool -all= file.pdf && exiftool -all:all= file.pdf && qpdf --linearize file.pdf filewithoutmeta.pdf
+$ mat file.pdf # latest version of mat doesn't support pdf format anymore...
 ```
 
+Remove metadata recursively from the current directory :
+*Very dirty but work well*
+*The filename must not have space at the moment, the commande will be optimized*
+```
+$ find . -name "*.pdf" -print0 | while read -d $'\0' file; do echo ${file:2} && mv ${file:2} ${file:2}.pdf && exiftool -all= ${file:2}.pdf && exiftool -all:all= ${file:2}.pdf && qpdf --linearize ${file:2}.pdf ${file:2} && rm ${file:2}.pdf && rm ${file:2}.pdf_original; done
+```
 
 
 ### Search for older versions
 Search for older "hidden" versions
 ```
 $ pdfresurrect file.pdf -i
+$ exiftool -pdf-update:all= file.pdf
 ```
 
 
