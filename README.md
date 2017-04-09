@@ -1,4 +1,4 @@
-#PDF Analysis
+# PDF Analysis
 
 >Several PDF analysis has already been done, I reassembled a lot of them with additional tips & tools here
 
@@ -27,24 +27,16 @@
 - [Sources](https://github.com/zbetcheckin/PDF_analysis/blob/master/README.md#sources-information_source)<br />
 
 
-
-<br />
 ## PDF Format :page_facing_up:
 
 <p align="center">
   <img src="https://github.com/zbetcheckin/PDF_analysis/blob/master/pdf_ange_albertini.png" alt="alt text" width="580" height="403">
 </p>
-
-
-
 <br />
 https://www.adobe.com/devnet/pdf/pdf_reference.html <br />
 https://blog.didierstevens.com/2008/04/09/quickpost-about-the-physical-and-logical-structure-of-pdf-files/ <br />
 https://web.archive.org/web/20141010035745/http://gnupdf.org/Introduction_to_PDF <br />
-<br />
 
-
-<br />
 ## Tools list :wrench:
 
 Tool | URL
@@ -79,26 +71,23 @@ http://blog.didierstevens.com/programs/pdf-tools/ <br />
 https://github.com/sans-dfir/sift-files/tree/master/pdf-tools
 
 
-
-<br />
-<br />
 ## Quick Analysis :rocket:
 
 
-####Basic informations
+#### Basic informations
 ```
 $ file file.pdf
 $ pdfinfo -box -meta -js -rawdates file.pdf
 ```
 
 
-####Displaying objects and actions structure 
+#### Displaying objects and actions structure 
 ```
 $ python pdfdid.py -aefv file.pdf
 ```
 
 
-####Search for /OpenAction /AA /Launch /GoTo /GoToR /SubmitForm /Richmedia (for Flash) /JS /JavaScript /URI - Encode - Cipher - Shell code - Obfuscation...
+#### Search for /OpenAction /AA /Launch /GoTo /GoToR /SubmitForm /Richmedia (for Flash) /JS /JavaScript /URI - Encode - Cipher - Shell code - Obfuscation...
 Automatically with ParanoiDF
 ```
 $ python paranoiDF.py -fl file.pdf
@@ -113,7 +102,7 @@ $ bless file.pdf
 ```
 
 
-####Extract files / scripts / Objects
+#### Extract files / scripts / Objects
 pdf-parser to extract a js object for example
 ```
 $ pdf-parser --object 32 --raw > extractedObject.js
@@ -124,23 +113,12 @@ $ pdfextract file.pdf
 ```
 
 
-####Online analysis<br />
+#### Online analysis<br />
 *Beware to don't leak any important/professional/personnal data or to expose your research*<br />
 https://www.hybrid-analysis.com/
 
 
-
-
-
-
-
-
-
-
-<br />
-<br />
 ## Complete Analysis :mag_right:
-
 
 
 ### Basic informations
@@ -224,8 +202,6 @@ Extract PDF | http://www.extractpdf.com
 Char conversion | https://kt.pe/tools.html#conv/
 
 
-
-
 ### Statistics 
 Calcul byte statistics, entropy min and max, ASCII count, ... from a PDF
 ```
@@ -233,13 +209,11 @@ $ python byte-stats.py file.pdf
 ```
 
 
-
 ### Visual analysis
 Visual analysis of a PDF or a binary file<br />
 http://binvis.io
 
 
-<br />
 ## Go deeper in the analysis
 
 ### Displaying objects and actions structure 
@@ -374,17 +348,6 @@ $ john --wordlist=yourDictionnary.txt x.hash
 ```
 
 
-
-
-
-
-
-
-
-
-
-
-
 ### Javascript
 
 2 ways to search for Javascript
@@ -423,20 +386,15 @@ http://www.didierstevens.com/files/software/js-1.7.0-mod.tar.gz <br />
 More details coming soon.
 
 
-
-
 #### Add Javascript to PDF
 https://didierstevens.com/files/software/make-pdf_V0_1_6.zip <br />
 https://neonprimetime.blogspot.fr/2015/03/how-to-add-javascript-to-pdf.html <br />
-
 
 
 #### Disarming a PDF
 ```
 $ python pdfid.py --disarm file.pdf
 ```
-
-
 
 
 ### Flash
@@ -464,13 +422,6 @@ $ swfdump -Ddu flashFile.swf > flashFile.txt
 More details coming soon.
 
 
-
-
-
-
-
-
-<br />
 ## Sources :information_source:
 
 https://blog.didierstevens.com/category/pdf/ <br />
