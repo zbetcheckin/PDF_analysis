@@ -51,7 +51,7 @@ Origami | https://code.google.com/archive/p/origami-pdf/
 ParanoiDF | https://github.com/patrickdw123/ParanoiDF
 peepdf | https://github.com/jesparza/peepdf
 PDF Xray | https://github.com/9b/pdfxray_public
-pdf-parser | http://didierstevens.com/files/software/pdf-parser_V0_6_4.zip
+pdf-parser | https://didierstevens.com/files/software/pdf-parser_V0_7_1.zip
 pdf2jhon.py | https://github.com/magnumripper/JohnTheRipper/blob/unstable-jumbo/run/pdf2john.py
 pdfcrack | https://packages.debian.org/jessie/pdfcrack
 pdfextract | https://github.com/CrossRef/pdfextract
@@ -67,7 +67,7 @@ swf_mastah.py | https://github.com/9b/pdfxray_public/blob/master/builder/swf_mas
 
 
 #### Existing list
-http://blog.didierstevens.com/programs/pdf-tools/ <br />
+https://blog.didierstevens.com/programs/pdf-tools/ <br />
 https://github.com/sans-dfir/sift-files/tree/master/pdf-tools
 
 
@@ -192,13 +192,13 @@ Name | URL
 Malwr | https://malwr.com/submission/
 Hybrid analysis | https://www.hybrid-analysis.com/
 Malware Tracker | https://www.malwaretracker.com/pdf.php
-VirusTotal | http://www.virustotal.com/
-PDF examiner | http://www.pdfexaminer.com/
-Document Analyzer | http://www.document-analyzer.net/
+VirusTotal | https://www.virustotal.com/
+PDF examiner | https://www.pdfexaminer.com/
+Document Analyzer | https://www.document-analyzer.net/
 Jotti | https://virusscan.jotti.org/
-PDF X-ray | http://www.pdfxray.com/
+PDF X-ray | https://github.com/9b/pdfxray_public
 PDF Online | https://www.pdf-online.com/
-Extract PDF | http://www.extractpdf.com
+Extract PDF | https://www.extractpdf.com/
 Char conversion | https://kt.pe/tools.html#conv/
 
 
@@ -211,7 +211,7 @@ $ python byte-stats.py file.pdf
 
 ### Visual analysis
 Visual analysis of a PDF or a binary file<br />
-http://binvis.io
+https://binvis.io/
 
 
 ## Go deeper in the analysis
@@ -375,14 +375,12 @@ $ pdfextract --js file.pdf
 #### De-obfuscate
 https://github.com/urule99/jsunpack-n <br />
 
-Online :<br />
-http://jsunpack.jeek.org/java/ <br />
 
 Malzilla and SpiderMonkey can also help deobfuscate JavaScript.<br />
 Malzilla : <br />
-http://www.malzilla.org/downloads.html <br />
+https://sourceforge.net/projects/malzilla/ <br />
 SpiderMonkey : <br />
-http://www.didierstevens.com/files/software/js-1.7.0-mod.tar.gz <br />
+https://www.didierstevens.com/files/software/js-1.7.0-mod.tar.gz <br />
 More details coming soon.
 
 
@@ -425,7 +423,7 @@ More details coming soon.
 ## Sources :information_source:
 
 https://blog.didierstevens.com/category/pdf/ <br />
-http://www.decalage.info/file_formats_security/pdf <br />
+https://www.decalage.info/file_formats_security/pdf <br />
 https://zeltser.com/analyzing-malicious-documents/ <br />
 https://code.google.com/archive/p/corkami/wikis/PDFTricks.wiki <br />
 https://www.sans.org/reading-room/whitepapers/malicious/owned-malicious-pdf-analysis-33443 <br />
