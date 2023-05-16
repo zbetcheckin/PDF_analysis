@@ -45,24 +45,24 @@ AnalyzePDF.py | https://github.com/hiddenillusion/AnalyzePDF
 ByteForce | https://github.com/weaknetlabs/ByteForce
 Caradoc | https://github.com/ANSSI-FR/caradoc
 Didier Stevens suite | https://github.com/DidierStevens/DidierStevensSuite
-dumppdf | https://packages.debian.org/jessie/python-pdfminer
-forensics-all | https://packages.debian.org/jessie-backports/forensics-all
+dumppdf | https://packages.debian.org/stable/python3-pdfminer
+forensics-all | https://packages.debian.org/stable/forensics-all
 Origami | https://code.google.com/archive/p/origami-pdf/
 ParanoiDF | https://github.com/patrickdw123/ParanoiDF
 peepdf | https://github.com/jesparza/peepdf
 PDF Xray | https://github.com/9b/pdfxray_public
 pdf-parser | http://didierstevens.com/files/software/pdf-parser_V0_6_4.zip
-pdf2jhon.py | https://github.com/magnumripper/JohnTheRipper/blob/unstable-jumbo/run/pdf2john.py
-pdfcrack | https://packages.debian.org/jessie/pdfcrack
+pdf2john.pl | https://github.com/openwall/john/blob/bleeding-jumbo/run/pdf2john.pl
+pdfcrack | https://packages.debian.org/stable/pdfcrack
 pdfextract | https://github.com/CrossRef/pdfextract
 pdfobjflow.py | https://bitbucket.org/sebastiendamaye/pdfobjflow
-pdfresurrect | https://packages.debian.org/jessie/pdfresurrect
+pdfresurrect | https://packages.debian.org/stable/pdfresurrect
 PdfStreamDumper.exe | http://sandsprite.com/CodeStuff/PDFStreamDumper_Setup.exe
-pdftk | https://packages.debian.org/en/jessie/pdftk
+pdftk | https://packages.debian.org/en/stable/pdftk
 pdfxray_lite.py | https://github.com/9b/pdfxray_lite
-poppler-utils | https://packages.debian.org/en/jessie/poppler-utils (pdftotext, pdfimages, pdftohtml, pdftops, pdfinfo, pdffonts, pdfdetach, pdfseparate, pdfsig, pdftocairo, pdftoppm, pdfunite)
-pyew | https://packages.debian.org/en/jessie/pyew
-qpdf | https://packages.debian.org/jessie/qpdf
+poppler-utils | https://packages.debian.org/en/stable/poppler-utils (pdftotext, pdfimages, pdftohtml, pdftops, pdfinfo, pdffonts, pdfdetach, pdfseparate, pdfsig, pdftocairo, pdftoppm, pdfunite)
+pyew | https://packages.debian.org/en/buster/pyew
+qpdf | https://packages.debian.org/stable/qpdf
 swf_mastah.py | https://github.com/9b/pdfxray_public/blob/master/builder/swf_mastah.py
 
 
@@ -343,7 +343,7 @@ $ pdfcrack -w yourDictionnary.txt file.pdf
 ```
 With john
 ```
-$ pdf2john.py file.pdf > x.hash
+$ pdf2john.pl file.pdf > x.hash
 $ john --wordlist=yourDictionnary.txt x.hash
 ```
 
