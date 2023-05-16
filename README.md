@@ -343,7 +343,7 @@ $ pdfcrack -w yourDictionnary.txt file.pdf
 ```
 With john
 ```
-$ pdf2john.py file.pdf > x.hash
+$ pdf2john.pl file.pdf > x.hash
 $ john --wordlist=yourDictionnary.txt x.hash
 ```
 
